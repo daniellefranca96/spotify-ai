@@ -1,0 +1,5 @@
+openai
+flask
+jsonify
+flask_session
+spotipy
