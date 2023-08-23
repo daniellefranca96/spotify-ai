@@ -1,45 +1,45 @@
 
-# Descrição do Projeto
+# SpotifyAI
 
-Este projeto, chamado Spotify AI, permite a interação com a API do Spotify usando comandos de linguagem natural. Ele utiliza a API OpenAI GPT-3 para interpretar comandos do usuário e realizar ações correspondentes na API do Spotify, como reproduzir uma música, pausar a reprodução, pesquisar por músicas e assim por diante.
+SpotifyAI allows interaction with the Spotify API using natural language commands. It utilizes the OpenAI GPT-3 API to interpret user commands and carry out corresponding actions on the Spotify API, such as playing a song, pausing playback, searching for songs, and so on.
 
-## Instalação
+## Installation
 
-Para instalar este projeto, siga os seguintes passos:
+To install this project, follow the steps below:
 
-1. Clone este repositório.
-2. Instale as dependências usando pip:
+1. Clone this repository.
+2. Install the dependencies using pip:
 
 ```
 pip install -r requirements.txt
 ```
 
-3. Configure as variáveis de ambiente necessárias. Copie o arquivo `env.example` para um novo arquivo chamado `.env` e preencha as seguintes variáveis:
+3. Set up the necessary environment variables. Copy the `env.example` file to a new file named `.env` and fill in the following variables:
 
-    - `SPOTIPY_CLIENT_ID`: Sua ID de cliente Spotify.
-    - `SPOTIPY_CLIENT_SECRET`: Seu segredo de cliente Spotify.
+    - `SPOTIPY_CLIENT_ID`: Your Spotify client ID.
+    - `SPOTIPY_CLIENT_SECRET`: Your Spotify client secret.
 
-   Estes são necessários para a autenticação com a API do Spotify. Você pode obter esses valores criando um aplicativo no [Dashboard de Desenvolvedores do Spotify](https://developer.spotify.com/dashboard/applications).
+   These are required for authentication with the Spotify API. You can obtain these values by creating an app on the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
 
-## Uso
+## Usage
 
-Para usar este projeto, siga os seguintes passos:
+To use this project, follow the steps below:
 
-1. Execute o script `prompt.py` e siga as instruções para interagir com o Spotify AI.
-2. Você também pode iniciar a API Flask executando `api.py` e enviar solicitações HTTP para ela.
+1. Run the `prompt.py` script and follow the instructions to interact with SpotifyAI.
+2. You can also start the Flask API by running `api.py` and sending HTTP requests to it.
 
 ## Roadmap
 
-Aqui estão algumas das melhorias planejadas para o futuro deste projeto:
+Here are some of the planned enhancements for the future of this project:
 
-- Suporte para interação por voz, permitindo que os usuários falem seus comandos em vez de digitá-los.
-- Integração com o Gradio para fornecer uma interface de usuário gráfica intuitiva.
-- Publicação de uma demonstração interativa no Hugging Face.
+- Support for voice interaction, allowing users to speak their commands instead of typing them.
+- Integration with Gradio to provide an intuitive graphical user interface.
+- Publishing an interactive demo on Hugging Face.
 
-## Contribuição
+## Contribution
 
-Contribuições para este projeto são bem-vindas. Por favor, abra um problema para discutir a mudança que você gostaria de fazer ou simplesmente faça um fork do projeto e abra uma solicitação pull.
+Contributions to this project are welcome. Please open an issue to discuss the change you'd like to make or simply fork the project and open a pull request.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
